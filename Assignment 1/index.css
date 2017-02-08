@@ -1,0 +1,110 @@
+
+html,body {
+    background-color: #F5F5DC;
+	min-height:100%;
+	overflow:auto;
+	margin :0px;
+	font-family:Sans-Serif !important;
+}
+
+.container{
+	min-height:100%;
+	overflow:auto;
+	width:auto;
+	display: flex;
+}
+
+.left{
+	float:left;
+	background-color: #F5F5DC;
+	width: 75%;
+	min-height:100%;
+	overflow:auto;
+}
+.right{
+    float:right;
+	background-color: #DEB887;
+	width:25%;
+}
+.menu{
+    float:left;
+	background-color: #800000;
+	width:100%;
+	height:3em;
+}
+
+.content{
+	float:left;
+	width:100%;
+}
+
+.block{
+	float:left;
+	width:100%;
+
+}
+a {
+	display:inline;
+	text-decoration:none;
+    float: left;
+    width: 20%;
+    color: #F5F5DC;
+	font-size :20px;
+}
+
+a:hover{
+	color:#DEB887;
+}
+h1 {
+    color: #000080;
+    text-align: left;
+	margin : 30px;
+	font-size :50px;
+}
+
+h2 {
+    color: #800000;
+    text-align: left;
+	margin : 10px;
+	font-size :25px;
+}
+
+h3 {
+    color: #000080;
+    text-align: left;
+	margin : 10px;
+	font-size :20px;
+}
+h4 {
+    color: #800000;
+    text-align: left;
+	margin : 10px;
+	font-size :25px;
+}
+
+li{
+	display:list-item;
+}
+p {
+    font-size: 18px;
+	text-align:justify;
+	margin : 10px;
+}
+ul {
+  list-style-image:url('pencil.gif');
+}
+
+li.in{
+	display:inline;
+}
+img{
+	float:left;
+	margin:10px;
+	border-style: groove;
+	border-width:10px;
+    border-color: #000080;
+}
+span{
+	color:orange;
+	font-weight: bold;
+}
